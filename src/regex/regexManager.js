@@ -13,14 +13,8 @@ import { handleTiktokRegex } from './handleTiktokRegex.js';
 
 export const regexs = [
   {
-    regex: /https:\/\/www\.tiktok\.com\/@[a-zA-Z0-9-_.]+\/video\/[0-9]+/,
-    handler: handleTiktokRegex },
-  {
     regex: /https:\/\/www\.instagram\.com\/p\/([a-zA-Z0-9-_]+)/,
     handler: handleInstagramRegex },
-  {
-    regex: /https:\/\/m\.weibo\.cn\/detail\/([0-9]+)/,
-    handler: handleWeiboRegex },
   {
     regex: /https:\/\/bsky\.app\/profile\/([a-zA-Z0-9-.]+)\/post\/([a-zA-Z0-9]{10,16})/,
     handler: handleBlueskyRegex },
@@ -39,9 +33,6 @@ export const regexs = [
   {
     regex: /https?:\/\/forum\.gamer\.com\.tw\/((?:C|Co)\.php\?bsn=60076&(?:snA|sn)=[0-9]+)/,
     handler: handleBahaRegex },
-  {
-    regex: /https:\/\/e(?:x|-)hentai\.org\/g\/([0-9]+)\/([0-9a-z]+)/,
-    handler: handleEhRegex },
   {
     regex: /https:\/\/www\.pixiv\.net\/artworks\/([0-9]+)/,
     handler: handlePixivRegex },
