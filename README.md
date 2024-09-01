@@ -1,6 +1,6 @@
 <h1 align="center">
     <img width="120" height="120" src="pic/logo.svg" alt=""><br>
-    ermiana
+    ermiana-kai
 </h1>
 
 <p align="center">
@@ -61,13 +61,8 @@ A Discord bot that fixes sites with broken preview by providing more detailed im
   - [x] Twitter
   - [x] Misskey
   - [x] Bluesky
-  - [x] Weibo
   - [x] instagram
-  - [x] tiktok
 - [x] Image sharing service
   - [x] Pixiv
-  - [x] ehentai
-  - [x] exhentai
-  - [ ] nhentai
-- [x] E-commerce site
+ - [x] E-commerce site
   - [x] PChome24h
